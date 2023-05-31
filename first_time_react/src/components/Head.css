@@ -1,0 +1,56 @@
+header {
+    background-color: green;
+}
+section:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+h1 {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.line {
+    height: 1px;
+    width: 25rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+}
+header section:nth-of-type(1) p {
+    text-align: center;
+    width: 50rem;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+header section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/* header section:nth-of-type(2) article:not(:last-child) {
+    border-right: 1px solid white;
+    padding: 0 5rem;
+} */
+.lineBetween {
+    height: 7rem;
+    background-color: white;
+    width: 1px;
+}
+header section:nth-of-type(2) article p:nth-of-type(2){
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+}
+.bigNumber {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+/* header section:nth-of-type(2)  */

@@ -1,0 +1,30 @@
+.Firstsection-Firstarticle {
+    text-align: center;
+    color: green;
+}
+.Firstsection-Firstarticle h1 {
+    color: black;
+    font-size: 3rem;
+    width: 60rem;
+    margin-bottom: 3rem;
+}
+.Firstsection-Secondarticle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20rem;
+    row-gap: 1rem;
+    width: 90rem;
+    margin-bottom: 3rem;
+}
+.flexDiv {
+    display: flex;
+}
+.flexDiv div:nth-of-type(2) {
+    margin-left: 1rem;
+}
+.Firstsection-Secondarticle img {
+    width: 7rem;
+}
+.Firstsection-Secondarticle h3 {
+    font-size: 1.5rem;
+}
